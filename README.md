@@ -2,27 +2,33 @@
 
 ###### _:school: This DOCKER MERN API-RESTfull is a project school MBA 1st promotion :books:_
 
-**🎬 Description**
+<br/>
 
-_Includes API endpoints handling for the client part:_
+**🎬 ## Description**
 
-_Authentification (Sign-up & Login)_
+Includes API endpoints handling for the client part:
 
-_Posting articles (list, edit handling)_
+Authentification (Sign-up & Login)
 
-**🧱Structure**
+Posting articles (list, edit handling)
+<br/>
+
+**🧱## Structure**
+
 In folder server and client we will find a Dockerfile to build the image:
 
 > ./backend/Dockerfile
+>
 > ./frontend/Dockerfile
 
 In main repository we will find a docker-compose.yml to set containers launching:
 
 > ./docker-compose.yml
+> <br/>
 
-**⚙️ Composition de l'installation**
+**⚙️ ## Composition de l'installation**
 
-#### Content Dockerfile
+Dockerfile content:
 
 > **FROM**: Use a lighter version of Node as a parent image
 >
@@ -36,7 +42,7 @@ In main repository we will find a docker-compose.yml to set containers launching
 >
 > **CMD**: Run the app when the container launches
 
-#### docker-compose.yml
+In docker-compose.yml:
 
 _we will find there the version and the services of deployment_
 
@@ -44,31 +50,35 @@ _we will find there the version and the services of deployment_
 
 > git clone https://github.com/Jekdesign/valsin_jerry_docker_mds_dev1_2020.git
 >
-> Use docker: docker-compose up --build or docker-compose up -d --build
+> Use docker:
 >
-> _Shutdown if necessary: docker-compose down_
+> **docker-compose up --build** or **docker-compose up -d --build**
+>
+> _Shutdown if necessary: docker-compose down_ > <br/>
 
-> # Pactical basic for npm package manager\*
->
-> ### First, run the backend
+### Pactical basic for npm package manager
+
+> ###### First, run the backend
 >
 > cd backend/
 > npm install
 > npm start
 >
-> ### Then, run the frontend
+> ###### Then, run the frontend
 >
 > cd frontend/
 > npm install
 > npm start
+> <br/>
 
 :memo: Note:
 
 - connection db : mongodb://mongodb:27017
 - backend port listening: 8080
 - client access: https://localhost:3000
+  <br/>
 
-_💻 Technology_
+**💻 ## Technology**
 
 - **Mongodb**
 - **Express** _(node.js framework)_
