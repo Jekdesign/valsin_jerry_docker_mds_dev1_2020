@@ -4,7 +4,7 @@
 
 <br/>
 
-**🎬 ## Description**
+## **🎬 Description**
 
 Includes API endpoints handling for the client part:
 
@@ -26,7 +26,7 @@ In main repository we will find a docker-compose.yml to set containers launching
 > ./docker-compose.yml
 > <br/>
 
-**⚙️ ## Composition de l'installation**
+## **⚙️ Composition de l'installation**
 
 Dockerfile content:
 
@@ -78,7 +78,7 @@ _we will find there the version and the services of deployment_
 - client access: https://localhost:3000
   <br/>
 
-**💻 ## Technology**
+## **💻 Technology**
 
 - **Mongodb**
 - **Express** _(node.js framework)_
