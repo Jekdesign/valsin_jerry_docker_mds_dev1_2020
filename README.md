@@ -93,6 +93,6 @@ client access: `https://localhost:3000`
 
 **Docker** _(CGROUP + Namespace)_
 
-**CGROUP** _(Partitioning resources - system, memory, networks)_
+**CGROUP** _(Partitioning ressources - system, memory, networks)_
 
-**Namespace** _(Isolation à la création d'un container)_
+**Namespace** _(Insulation for the creation of a container)_
