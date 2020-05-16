@@ -85,6 +85,6 @@ Pactical basic for npm package manager
 - **React** _(front js framework)_
 - **Node** _(tool javascript environment)_
 - **Docker** _(CGROUP + Namespace)_
--
-- **CGROUP** _(Partitioning resources - system, memory, networks)_
-- **Namespace**
+
+* **CGROUP** _(Partitioning resources - system, memory, networks)_
+* **Namespace** _(solation à la création d'un container)_
