@@ -95,4 +95,4 @@ client access: `https://localhost:3000`
 
 **CGROUP** _(Partitioning resources - system, memory, networks)_
 
-**Namespace** _(solation à la création d'un container)_
+**Namespace** _(Isolation à la création d'un container)_
