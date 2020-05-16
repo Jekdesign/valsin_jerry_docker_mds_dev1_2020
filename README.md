@@ -8,7 +8,7 @@ Includes API endpoints handling for the client part:
 
 Authentification (Sign-up & Login)
 
-Posting articles (list, edit handling)
+Posting articles (List, Edit handling)
 <br/>
 
 ## **🧱 Structure**
@@ -73,10 +73,13 @@ Pactical basic for npm package manager
 
 :memo: Note:
 
-- connection db: `mongodb://mongodb:27017`
-- backend port listening: 8080
-- client access: `https://localhost:3000`
-  <br/>
+connection db: `mongodb://mongodb:27017`
+
+backend port listening: 8080
+
+client access: `https://localhost:3000`
+
+<br/>
 
 ## **💻 Technology**
 
