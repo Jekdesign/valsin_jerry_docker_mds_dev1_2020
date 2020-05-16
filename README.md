@@ -75,7 +75,7 @@ Pactical basic for npm package manager
 
 connection db: `mongodb://mongodb:27017`
 
-backend port listening: 8080
+backend port listen: `https://localhost:8080`
 
 client access: `https://localhost:3000`
 
