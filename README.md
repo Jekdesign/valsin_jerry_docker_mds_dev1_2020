@@ -24,7 +24,7 @@ In main repository we will find a docker-compose.yml to set containers launching
 > ./docker-compose.yml
 > <br/>
 
-## **⚙️ Composition de l'installation**
+## **⚙️ Setup composing**
 
 Dockerfile content:
 
