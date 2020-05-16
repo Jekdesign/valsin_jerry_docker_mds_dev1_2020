@@ -2,8 +2,6 @@
 
 ###### _:school: This DOCKER MERN API-RESTfull is a project school MBA 1st promotion :books:_
 
-<br/>
-
 ## **🎬 Description**
 
 Includes API endpoints handling for the client part:
@@ -49,14 +47,16 @@ _we will find there the version and the services of deployment_
 **:rocket: Install and Deployment**
 
 > git clone https://github.com/Jekdesign/valsin_jerry_docker_mds_dev1_2020.git
->
-> Use docker:
->
+
+Use docker:
+
 > **docker-compose up --build** or **docker-compose up -d --build**
 >
-> _Shutdown if necessary: docker-compose down_ > <br/>
+> _Shutdown if necessary: docker-compose down_
 
-### Pactical basic for npm package manager
+<br/>
+
+Pactical basic for npm package manager
 
 > ###### First, run the backend
 >
@@ -73,7 +73,7 @@ _we will find there the version and the services of deployment_
 
 :memo: Note:
 
-- connection db : mongodb://mongodb:27017
+- connection db: `mongodb://mongodb:27017`
 - backend port listening: 8080
 - client access: https://localhost:3000
   <br/>
