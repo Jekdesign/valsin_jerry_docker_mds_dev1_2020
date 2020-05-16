@@ -13,7 +13,7 @@ Authentification (Sign-up & Login)
 Posting articles (list, edit handling)
 <br/>
 
-**🧱## Structure**
+## **🧱 Structure**
 
 In folder server and client we will find a Dockerfile to build the image:
 
