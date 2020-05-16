@@ -50,9 +50,9 @@ _we will find there the version and the services of deployment_
 
 Use docker:
 
-> `**docker-compose up --build** or **docker-compose up -d --build**`
+> **docker-compose up --build** or **docker-compose up -d --build**
 >
-> _Shutdown if necessary: `docker-compose down_`
+> _Shutdown if necessary: docker-compose down_
 
 <br/>
 
