@@ -5,29 +5,36 @@
 **🎬 Description**
 
 _Includes API endpoints handling for the client part:_
+
 _Authentification (Sign-up & Login)_
+
 _Posting articles (list, edit handling)_
 
 **🧱Structure**
 In folder server and client we will find a Dockerfile to build the image:
 
-> - ./backend/Dockerfile
-> - ./frontend/Dockerfile
+> ./backend/Dockerfile
+> ./frontend/Dockerfile
 
 In main repository we will find a docker-compose.yml to set containers launching:
 
-> - ./docker-compose.yml
+> ./docker-compose.yml
 
 **⚙️ Composition de l'installation**
 
 #### Content Dockerfile
 
-> _FROM_: Use a lighter version of Node as a parent image
-> _WORKDIR_: Set the working directory
-> _COPY_: Copy the current directory contents into the container at /api
-> _RUN_: install dependencies
-> _EXPOSE_: Make port XXXX available to the world outside this container
-> _CMD_: Run the app when the container launches
+> **FROM**: Use a lighter version of Node as a parent image
+>
+> **WORKDIR**: Set the working directory
+>
+> **COPY**: Copy the current directory contents into the container at /api
+>
+> **RUN**: install dependencies
+>
+> **EXPOSE**: Make port XXXX available to the world outside this container
+>
+> **CMD**: Run the app when the container launches
 
 #### docker-compose.yml
 
