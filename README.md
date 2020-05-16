@@ -81,7 +81,7 @@ client access: `https://localhost:3000`
 
 <br/>
 
-## **💻 Technology**
+## **💻 Technologies**
 
 **Mongodb** _(database)_
 
