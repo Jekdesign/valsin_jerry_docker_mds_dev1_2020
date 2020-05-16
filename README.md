@@ -83,11 +83,16 @@ client access: `https://localhost:3000`
 
 ## **💻 Technology**
 
-- **Mongodb**
-- **Express** _(node.js framework)_
-- **React** _(front js framework)_
-- **Node** _(tool javascript environment)_
-- **Docker** _(CGROUP + Namespace)_
+**Mongodb** _(database)_
 
-* **CGROUP** _(Partitioning resources - system, memory, networks)_
-* **Namespace** _(solation à la création d'un container)_
+**Express** _(node.js framework)_
+
+**React** _(front js framework)_
+
+**Node** _(tool javascript environment)_
+
+**Docker** _(CGROUP + Namespace)_
+
+**CGROUP** _(Partitioning resources - system, memory, networks)_
+
+**Namespace** _(solation à la création d'un container)_
