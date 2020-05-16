@@ -44,7 +44,7 @@ In docker-compose.yml:
 
 _we will find there the version and the services of deployment_
 
-**:rocket: Install and Deployment**
+## **:rocket: Install and Deployment**
 
 > git clone https://github.com/Jekdesign/valsin_jerry_docker_mds_dev1_2020.git
 
