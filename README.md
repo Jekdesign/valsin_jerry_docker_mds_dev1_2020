@@ -50,16 +50,16 @@ _we will find there the version and the services of deployment_
 
 Use docker:
 
-> **docker-compose up --build** or **docker-compose up -d --build**
+> `**docker-compose up --build** or **docker-compose up -d --build**`
 >
-> _Shutdown if necessary: docker-compose down_
+> _Shutdown if necessary: `docker-compose down_`
 
 <br/>
 
 Pactical basic for npm package manager
 
-> ###### First, run the backend
->
+###### First, run the backend
+
 > cd backend/
 > npm install
 > npm start
@@ -75,7 +75,7 @@ Pactical basic for npm package manager
 
 - connection db: `mongodb://mongodb:27017`
 - backend port listening: 8080
-- client access: https://localhost:3000
+- client access: `https://localhost:3000`
   <br/>
 
 ## **💻 Technology**
