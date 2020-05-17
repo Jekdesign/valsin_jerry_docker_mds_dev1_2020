@@ -26,7 +26,7 @@ In main repository we will find a docker-compose.yml to set containers launching
 
 <br/>
 
-## **⚙️ Setup composing**
+## **⚙️ Setup Composing**
 
 Dockerfile content:
 
@@ -48,15 +48,15 @@ _we will find there the version and the services of deployment_
 
 <br/>
 
-## **:rocket: Install and Deployment**
+## **:rocket: Install & Deployment**
 
-> git clone https://github.com/Jekdesign/valsin_jerry_docker_mds_dev1_2020.git
+> :\$ git clone https://github.com/Jekdesign/valsin_jerry_docker_mds_dev1_2020.git
 
 Use docker:
 
-> **docker-compose up --build** or **docker-compose up -d --build**
+> :$ **docker-compose up --build** or :$ **docker-compose up -d --build**
 >
-> _Shutdown if necessary: docker-compose down_
+> _Shutdown if necessary: :\$ docker-compose down_
 
 <br/>
 
@@ -64,15 +64,15 @@ Pactical basic for npm package manager
 
 > ###### First, run the backend
 
-> cd backend/
-> npm install
-> npm start
+> :$ cd backend/
+> :$ npm install
+> :\$ npm start
 >
 > ###### Then, run the frontend
 >
-> cd frontend/
-> npm install
-> npm start
+> :$ cd frontend/
+> :$ npm install
+> :\$ npm start
 
 <br/>
 
@@ -104,23 +104,43 @@ client access `https://localhost:3000`
 
 <br/>
 
-## **Bonus Push and pull image registry**
+## **🆙Registry bonus step**
+
+### Push image to Registry in public
 
 Build images server & client:
 
-> cd ./backend _(push enter)_
+> :\$ cd ./backend _(push enter)_
 >
-> /backend:\$ docker build -t server:1.0 . _(push enter)_
+> backend:\$ docker build -t server:1.0 . _(push enter)_
 
-> cd ./frontend _(push enter)_
+> :\$ cd ./frontend _(push enter)_
 >
-> /frontend:\$ docker build -t client:1.0 . _(push enter)_
+> frontend:\$ docker build -t client:1.0 . _(push enter)_
 
 > :\$ docker images or docker images ls _(push enter)_
 
-Look name _REPOSITORY_ and _IMAGE ID_ result:
+Look name _REPOSITORY_ and _IMAGE ID_ like:
 
 | REPOSITORY | TAG | IMAGE ID     |
 | ---------- | --- | ------------ |
 | server     | 1.0 | baf5690ac0f2 |
 | client     | 1.0 | 4dd67690517e |
+
+> :$ docker tag baf5690ac0f2 <hubusername>/server:1.0
+> :$ docker push <hubusername>/server
+
+> :$ docker tag 4dd67690517e <hubusername>/client:1.0
+> :$ docker push <hubusername>/client
+
+<br/>
+
+You can pull them via docker hub:
+
+https://hub.docker.com/repository/docker/jechtech/server
+
+> :\$ docker pull jechtech/server
+
+https://hub.docker.com/repository/docker/jechtech/client
+
+> :\$ docker pull jechtech/client
