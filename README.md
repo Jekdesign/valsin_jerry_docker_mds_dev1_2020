@@ -9,6 +9,7 @@ Includes API endpoints handling for the client part:
 Authentification (Sign-up & Login)
 
 Posting articles (List, Edit handling)
+
 <br/>
 
 ## **🧱 Structure**
@@ -22,7 +23,8 @@ In folder server and client we will find a Dockerfile to build the image:
 In main repository we will find a docker-compose.yml to set containers launching:
 
 > ./docker-compose.yml
-> <br/>
+
+<br/>
 
 ## **⚙️ Setup composing**
 
