@@ -96,3 +96,26 @@ client access: `https://localhost:3000`
 **CGROUP** _(Partitioning ressources - system, memory, networks)_
 
 **Namespace** _(Insulation for the creation of a container)_
+
+<br/>
+
+## **Bonus Push and pull image registry**
+
+Build images server & client:
+
+> cd ./backend _(push enter)_
+>
+> /backend:\$ docker build -t server:1.0 . _(push enter)_
+
+> cd ./frontend _(push enter)_
+>
+> /frontend:\$ docker build -t client:1.0 . _(push enter)_
+
+> :\$ docker images or docker images ls _(push enter)_
+
+Look name _REPOSITORY_ and _IMAGE ID_ result:
+
+| REPOSITORY | TAG | IMAGE ID     |
+| ---------- | --- | ------------ |
+| server     | 1.0 | baf5690ac0f2 |
+| client     | 1.0 | 4dd67690517e |
