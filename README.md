@@ -104,7 +104,7 @@ client access `https://localhost:3000`
 
 <br/>
 
-## **🆙Registry bonus step**
+## ** 🆙Registry bonus step**
 
 ### Push image to Registry in public
 
