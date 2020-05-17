@@ -62,7 +62,7 @@ Use docker:
 
 Pactical basic for npm package manager
 
-###### First, run the backend
+> ###### First, run the backend
 
 > cd backend/
 > npm install
@@ -74,13 +74,15 @@ Pactical basic for npm package manager
 > npm install
 > npm start
 
-:memo: Note:
+<br/>
 
-connection db: `mongodb://mongodb:27017`
+:memo: Note
 
-backend port listen: `https://localhost:8080`
+connection db `mongodb://mongodb:27017`
 
-client access: `https://localhost:3000`
+backend port `https://localhost:8080`
+
+client access `https://localhost:3000`
 
 <br/>
 
