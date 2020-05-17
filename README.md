@@ -46,6 +46,8 @@ In docker-compose.yml:
 
 _we will find there the version and the services of deployment_
 
+<br/>
+
 ## **:rocket: Install and Deployment**
 
 > git clone https://github.com/Jekdesign/valsin_jerry_docker_mds_dev1_2020.git
@@ -71,7 +73,6 @@ Pactical basic for npm package manager
 > cd frontend/
 > npm install
 > npm start
-> <br/>
 
 :memo: Note:
 
